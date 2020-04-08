@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "9e0ac2b0-acc3-4162-838e-a2409f27b9b6",
+		"name": "lumen-game",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "action",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"player_lvl\": 5,\n\t\"monsters\": [\n\t\t{\"id\": 1, \"lvl\": 1},\n\t\t{\"id\": 2, \"lvl\": 1},\n\t\t{\"id\": 3, \"lvl\": 1},\n\t\t{\"id\": 4, \"lvl\": 2},\n\t\t{\"id\": 5, \"lvl\": 2},\n\t\t{\"id\": 6, \"lvl\": 2},\n\t\t{\"id\": 7, \"lvl\": 3},\n\t\t{\"id\": 8, \"lvl\": 3},\n\t\t{\"id\": 9, \"lvl\": 3},\n\t\t{\"id\": 10, \"lvl\": 4},\n\t\t{\"id\": 11, \"lvl\": 4},\n\t\t{\"id\": 12, \"lvl\": 4},\n\t\t{\"id\": 13, \"lvl\": 5},\n\t\t{\"id\": 14, \"lvl\": 5},\n\t\t{\"id\": 15, \"lvl\": 5},\n\t\t{\"id\": 16, \"lvl\": 6},\n\t\t{\"id\": 17, \"lvl\": 6},\n\t\t{\"id\": 18, \"lvl\": 7},\n\t\t{\"id\": 19, \"lvl\": 7},\n\t\t{\"id\": 20, \"lvl\": 8}\n\t],\n\t\"server_time\": \"2020-04-08 19:00:00\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/player/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"player",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
