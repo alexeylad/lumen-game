@@ -1,0 +1,24 @@
+{
+    "players": [
+        {
+            "id": 1,
+            "skill_hide": 0
+        },
+        {
+            "id": 2,
+            "skill_hide": 1500
+        },
+        {
+            "id": 3,
+            "skill_hide": 800
+        },
+        {
+            "id": 4,
+            "skill_hide": 500
+        },
+        {
+            "id": 5,
+            "skill_hide": 100
+        }
+    ]
+}
